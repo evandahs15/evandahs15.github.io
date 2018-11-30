@@ -254,6 +254,14 @@ video{
   height: auto;
 }
 
+#technical-blog{
+  top: 0;
+}
+
+#core-one{
+  top: 0;
+}
+
 }
 
 @media screen and (max-width: 600px) {
