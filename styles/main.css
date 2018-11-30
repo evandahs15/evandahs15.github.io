@@ -54,9 +54,14 @@ a{
 
 
 header{
+  z-index: 100;
+  background-color: #00043C;
+  position: fixed;
+  top: 0;
+  width:100%;
   box-sizing: border-box;
   padding: 50px;
-  height:auto;
+  height:100px;
 }
 
 .sub-header{
@@ -91,7 +96,7 @@ text-decoration: underline;
 
 .main-container{
 position: relative;
-top: 70px;
+top: 30vh;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap-reverse;
@@ -126,10 +131,10 @@ margin: 60px;
   flex-direction: column;
   flex-wrap: wrap;
   width: 70%;
-  height:70vh;
+  height:100vh;
   margin: 60px;
   position:relative;
-  top: 80px;
+  top: 30vh;
 }
 
 .line{
