@@ -1,0 +1,107 @@
+//	Headings
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600')
+
+
+.bigger, .big, .medium,
+h1, h2, h3,
+  color: black
+  font-family: 'Work Sans', sans-serif
+  font-weight: 600
+
+p,h4, 
+  color: black
+  font-family: 'Work Sans', sans-serif
+  font-weight: 300
+  letter-spacing: 0px
+
+.bigger, h1
+  font-size: 80px
+  letter-spacing: 0px
+  @media only screen and (max-device-width: 768px) and (orientation: portrait) 
+    font-size: 50px
+  @media only screen and (max-width: 320px)
+    font-size: 40px
+
+.big, h2
+  font-size: 40px
+  letter-spacing: 0px
+  @media only screen and (max-device-width: 768px) and (orientation: portrait) 
+    font-size: 25px
+  @media only screen and (max-width: 320px)
+    font-size: 20px
+
+.medium, h3
+  font-size: 18px
+  letter-spacing: 0px
+  @media only screen and (max-device-width: 768px) and (orientation: portrait) 
+    font-size: 16px
+  @media only screen and (max-width: 320px)
+    font-size: 12px
+
+.sub-headig, h2
+  font-weight: 300
+  font-size: 40px
+  letter-spacing: 0
+
+.small, h4
+  font-size: 14px
+  letter-spacing: 0
+  @media only screen and (max-width: 320px)
+    font-size: 18px
+  
+ul 
+  margin-top: 4px
+  font-weight: 300
+  list-style: none
+  padding-left: 0
+
+
+// Basic Text Style
+a
+  color: black
+  font-family: 'Work Sans', sans-serif
+  font-size: 18px
+  @media only screen and (max-device-width: 768px) and (orientation: portrait) 
+    font-size: 16px
+  @media only screen and (max-width: 320px)
+    font-size: 14px
+
+  &:hover,
+  &:focus
+    color: white
+
+
+p
+  margin: 0 0 20px 0
+  font-size: 18px
+  line-height: 22px
+  @media only screen and (max-device-width: 768px) and (orientation: portrait) 
+    font-size: 16px
+  @media only screen and (max-width: 320px)
+    font-size: 14px
+
+em
+  font-style: italic
+
+strong
+  font-weight: 600
+
+// Specific Text Style
+
+.name
+  transform: rotate(-270deg)
+  font-weight: 300
+  font-size: 30px
+  color: #000000
+  letter-spacing: 0
+  @media only screen and (max-width: 320px)
+    font-size: 18px
+
+.intro
+  font-size: 45px
+  letter-spacing: 0
+  @media only screen and (max-device-width: 768px) and (orientation: portrait) 
+    font-size: 30px
+  @media only screen and (max-width: 320px)
+    font-size: 30px
+
