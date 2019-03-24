@@ -270,7 +270,7 @@ p, h4 {
   @media only screen and (max-device-width: 768px) and (orientation: portrait) {
     .bigger, h1 {
       font-size: 50px; } }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 320px) and (orientation: portrait) {
     .bigger, h1 {
       font-size: 40px; } }
 
@@ -280,7 +280,7 @@ p, h4 {
   @media only screen and (max-device-width: 768px) and (orientation: portrait) {
     .big, h2 {
       font-size: 25px; } }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 320px) and (orientation: portrait) {
     .big, h2 {
       font-size: 20px; } }
 
@@ -290,7 +290,7 @@ p, h4 {
   @media only screen and (max-device-width: 768px) and (orientation: portrait) {
     .medium, h3 {
       font-size: 16px; } }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 320px) and (orientation: portrait) {
     .medium, h3 {
       font-size: 12px; } }
 
@@ -302,7 +302,7 @@ p, h4 {
 .small, h4 {
   font-size: 14px;
   letter-spacing: 0; }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 320px) and (orientation: portrait) {
     .small, h4 {
       font-size: 18px; } }
 
@@ -319,11 +319,9 @@ a {
   @media only screen and (max-device-width: 768px) and (orientation: portrait) {
     a {
       font-size: 16px; } }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 320px) and (orientation: portrait) {
     a {
       font-size: 14px; } }
-  a:hover, a:focus {
-    color: white; }
 
 p {
   margin: 0 0 20px 0;
@@ -332,7 +330,7 @@ p {
   @media only screen and (max-device-width: 768px) and (orientation: portrait) {
     p {
       font-size: 16px; } }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 320px) and (orientation: portrait) {
     p {
       font-size: 14px; } }
 
@@ -348,7 +346,7 @@ strong {
   font-size: 30px;
   color: #000000;
   letter-spacing: 0; }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 320px) and (orientation: portrait) {
     .name {
       font-size: 18px; } }
 
@@ -358,7 +356,7 @@ strong {
   @media only screen and (max-device-width: 768px) and (orientation: portrait) {
     .intro {
       font-size: 30px; } }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 320px) and (orientation: portrait) {
     .intro {
       font-size: 30px; } }
 
@@ -368,13 +366,13 @@ strong {
   right: 0px;
   height: 50vh;
   width: 65%; }
-  @media only screen and (max-device-width: 1100px) {
+  @media only screen and (max-device-width: 1100px) and (orientation: portrait) {
     .animation-container {
       width: 80%; } }
-  @media only screen and (max-device-width: 520px) {
+  @media only screen and (max-device-width: 520px) and (orientation: portrait) {
     .animation-container {
       width: 90%; } }
-  @media only screen and (max-device-width: 450px) {
+  @media only screen and (max-device-width: 450px) and (orientation: portrait) {
     .animation-container {
       height: 100vh; } }
 
@@ -384,13 +382,13 @@ strong {
   right: -1000px;
   bottom: 13%;
   margin: 0; }
-  @media only screen and (max-device-width: 900px) {
+  @media only screen and (max-device-width: 900px) and (orientation: portrait) {
     .about-title {
       font-size: 30px; } }
-  @media only screen and (max-device-width: 520px) {
+  @media only screen and (max-device-width: 520px) and (orientation: portrait) {
     .about-title {
       font-size: 28px; } }
-  @media only screen and (max-device-width: 450px) {
+  @media only screen and (max-device-width: 450px) and (orientation: portrait) {
     .about-title {
       font-size: 22px;
       top: 5%; } }
@@ -402,7 +400,7 @@ strong {
   right: -1000px;
   padding: 2px;
   background: black; }
-  @media only screen and (max-device-width: 450px) {
+  @media only screen and (max-device-width: 450px) and (orientation: portrait) {
     .border-line {
       display: none; } }
 
@@ -412,19 +410,18 @@ strong {
   right: -1000px;
   bottom: 0px;
   margin: 0; }
-  @media only screen and (max-device-width: 450px) {
+  @media only screen and (max-device-width: 450px) and (orientation: portrait) {
     .links {
       bottom: 5%; } }
   .links a {
-    text-decoration: none;
     padding-right: 45px; }
-    @media only screen and (max-device-width: 450px) {
+    @media only screen and (max-device-width: 450px) and (orientation: portrait) {
       .links a {
         font-size: 40px;
         display: block;
         padding-bottom: 20px; } }
-    .links a a:hover {
-      color: white; }
+    .links a:hover, .links a:focus {
+      font-weight: 600; }
 
 .flex-video {
   height: 0;
