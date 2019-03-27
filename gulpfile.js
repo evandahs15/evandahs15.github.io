@@ -119,7 +119,7 @@ function watcher () {
 }
 
 task('deploy', function () {
-  return src('./prod/**/*')
+  return src('./build/**/*')
     .pipe(deploy({
       remoteUrl: 'https://github.com/evandahs15/evandahs15.github.io.git',
       branch: 'master'
