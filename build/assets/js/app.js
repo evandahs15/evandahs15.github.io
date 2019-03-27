@@ -1,1 +1,0 @@
-$(function(){$(".about-title").animate({right:"0px"},1e3,"easeInOutSine"),$(".border-line").delay(200).animate({right:"0px"},1e3,"easeInOutSine"),$(".links").delay(200).animate({right:"0px"},1e3,"easeInOutSine")});
