@@ -118,8 +118,8 @@ function watcher () {
   watch(['build/*.html', 'build/assets/css/*.css', 'build/assets/js/*.js', 'build/assets/js/vendors/*.js']).on('change', browserSync.reload)
 }
 
-gulp.task('deploy', function () {
-  return gulp.src('./prod/**/*')
+task('deploy', function () {
+  return src('./prod/**/*')
     .pipe(deploy({
       remoteUrl: 'https://github.com/evandahs15/evandahs15.github.io.git',
       branch: 'master'
