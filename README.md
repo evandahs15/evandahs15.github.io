@@ -1,6 +1,6 @@
 <h1> Personal Portfolio Website </h1>
 This is my own personal website to showcase my work as a Developer and Designer.
-Built with SASS - Deployed using GULP-GITHUB-PAGES w/ Custom Domain.
+Built with SASS using GULP as a workflow proccessor.
 
-<strong> See my dev branch to see all build files </strong>
-
+<strong> Why does the Master look empty? </strong> <br>
+I am using gulp.js to deploy all my final work to the master branch where GITHUB Pages is hosting my website on a custom domain name. Go into the Dev branch to see the "behind-the-scenes" files that are creating this website.
